@@ -15,7 +15,7 @@ test("One euro should be 1.07 dollars", function() {
 
     const expected = 2 * 1.07; 
     
-     expect(fromEuroToDollar(2)).toBe(2.14);
+    expect(fromEuroToDollar(2)).toBe(2.14);
 })
 
 test("One dollar should be 146.26168224299064 yens", function() {

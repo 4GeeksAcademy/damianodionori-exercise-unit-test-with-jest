@@ -28,13 +28,13 @@ function fromYenToPound(yenAmount) {
     return yenAmount * oneEuroIs["GBP"] / oneEuroIs["JPY"];
 }
 
-const dollars = 2;
+const dollars = 1;
 console.log(`${dollars} USD is equivalent to ${fromDollarToYen(dollars)} JPY`);
 
-const euros = 2;
+const euros = 1;
 console.log(`${euros} EUR is equivalent to ${fromEuroToDollar(euros)} USD`);
 
-const yen = 2;
+const yen = 1;
 console.log(`${yen} JPY is equivalent to ${fromYenToPound(yen)} GBP`);
 
 module.exports = { sum, fromEuroToDollar, fromDollarToYen, fromYenToPound };
